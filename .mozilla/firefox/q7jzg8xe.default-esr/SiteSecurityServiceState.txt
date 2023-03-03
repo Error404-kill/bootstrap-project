@@ -1,0 +1,7 @@
+classify-client.services.mozilla.com:HSTS	0	19419	1709365612366,1,0,2
+firefox.settings.services.mozilla.com:HSTS	0	19419	1709365575572,1,0,2
+docs.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19419	1709387047463,1,0,2
+contile.services.mozilla.com:HSTS	0	19419	1709365348788,1,0,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	19419	1709365352673,1,1,2
+normandy.cdn.mozilla.net:HSTS	0	19419	1709365352186,1,0,2
+aus5.mozilla.org:HSTS	0	19419	1709365522382,1,0,2

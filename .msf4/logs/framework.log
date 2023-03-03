@@ -1,0 +1,3 @@
+[03/03/2023 10:14:24] [d(0)] core: Created user based module store
+[03/03/2023 10:16:13] [d(0)] core: HistoryManager.push_context name: :msfconsole
+[03/03/2023 10:26:59] [d(0)] core: HistoryManager.pop_context name: :msfconsole

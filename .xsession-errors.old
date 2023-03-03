@@ -1,0 +1,82 @@
+Xsession: X session started for kravel at Thu Mar  2 06:33:45 PM EAT 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/kravel/.Xauthority
+localuser:kravel being added to access control list
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting POWERSHELL_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting USER=kravel
+dbus-update-activation-environment: setting LANGUAGE=en_US:en
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting DOTNET_CLI_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting HOME=/home/kravel
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=qt5ct
+dbus-update-activation-environment: setting LOGNAME=kravel
+dbus-update-activation-environment: setting QT_AUTO_SCREEN_SCALE_FACTOR=0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting _JAVA_OPTIONS=-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting POWERSHELL_UPDATECHECK=Off
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting XAUTHORITY=/home/kravel/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/kravel
+dbus-update-activation-environment: setting SHELL=/usr/bin/zsh
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/kravel
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 18:33:46.387: SSH authentication agent is already running
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:874): GLib-CRITICAL **: 18:33:47.387: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:874): xfwm4-WARNING **: 18:33:49.487: Another compositing manager is running on screen 0
+
+(xfsettingsd:901): GLib-CRITICAL **: 18:33:50.316: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:901): GLib-GObject-CRITICAL **: 18:33:50.474: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+** (xfce4-power-manager:963): WARNING **: 18:33:58.833: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:963): WARNING **: 18:33:58.841: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Another notification daemon is running, exiting
+
+(xfce4-power-manager:963): GLib-GObject-WARNING **: 18:34:00.982: ../../../gobject/gsignal.c:2620: signal 'Changed' is invalid for instance '0x55ea5da29880' of type 'GDBusProxy'
+
+(wrapper-2.0:929): Gtk-WARNING **: 18:34:03.292: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:940): WARNING **: 18:34:03.357: No outputs have backlight property
+
+(wrapper-2.0:939): Gtk-WARNING **: 18:34:05.165: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:938): Gtk-WARNING **: 18:34:05.773: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:940): xfce4-power-manager-plugin-WARNING **: 18:34:06.310: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+
+(xfce4-power-manager:963): xfce4-power-manager-WARNING **: 18:34:06.581: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:963): WARNING **: 18:34:07.376: No outputs have backlight property
+
+(xfce4-power-manager:963): xfce4-power-manager-WARNING **: 18:34:07.433: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+(wrapper-2.0:940): Gtk-WARNING **: 18:34:07.542: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PowerManagerButton)
+blueman-applet 18.34.09 WARNING  PluginManager:151 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 18.34.09 WARNING  PluginManager:151 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 18.34.09 WARNING  DiscvManager:119 update_menuitems: warning: Adapter is None

